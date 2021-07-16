@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+.menu{
+    height:80px;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    align-items: center;
+}
+
+.menu >li {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    margin-right: 20px;
+    border: 0.6px solid #646D7C;
+    color: #FFFFFF;
+}
+
+li:hover{
+    background-color:#646D7C;
+    opacity: 0.1;
+    color:#FFFFFF;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* main */
+
+.theFrist > .photoFritssrc{
+    width: 100%;
+    max-height: 400px;
+}
+
+.contentIn{
+    position: absolute;
+    left: 45%;
+    top: 20%;
+}
